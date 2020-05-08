@@ -14,6 +14,6 @@ public class Coffee extends Beverage implements Printable {
 
     @Override
     public void print() {
-        System.out.println("Название напитка " + getName() + "Год выдержки " + getSort());
+        System.out.println("Название напитка " + getName() + " Сорт Кофе " + getSort());
     }
 }
